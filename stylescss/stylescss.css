@@ -1,0 +1,109 @@
+.cabecera {
+	display: flex;
+	border: solid peru;
+	margin-left: 0.5%;
+	margin-top: 0.5%;
+	margin-bottom: 0.5%;
+	height: 50%;
+	padding: 0.4%;
+}
+
+.recipes {
+	margin-left: 1%;
+	margin-top: 1.3%;
+}
+
+.contenidor {
+	display: flex;
+}
+
+.logo {
+	height: 2.5%;
+	width: 2.5%;
+}
+
+.healthy {
+	margin-left: 20%;
+	margin-top: 10%;
+	margin-right: 25%;
+}
+
+.salud {
+	font-size: 30px;
+}
+
+.minutes {
+	font-size: 40px;
+}
+
+.button {
+	padding-left: 5px;
+	font-size: 20px;
+	border: solid peru;
+	border-radius: 15px;
+	width: 30%;
+}
+
+.categories {
+	display: flex;
+	border-bottom: solid peru;
+	margin-top: 0.5%;
+	margin-bottom: 0.5%;
+	height: 50%;
+	width: 100%;
+	padding-left: 8%;
+}
+
+.category{
+	margin-left: 3%;
+	font-weight: bold;
+}
+
+.latestrecipe {
+	margin-left: 20%;
+	margin-top: 2%;
+	padding: 2%;
+	font-size: 40px;
+}
+
+.imagenes{
+	display: flex;
+	margin-left: 23%;
+	padding-left: 5%;
+}
+
+.divmallorca {
+
+}
+
+.mallorca {
+	width: 50%;
+}
+
+.divkachow {
+
+}
+
+.kachow {
+	width: 80%	;
+}
+
+.textomallorcakachow {
+	display: flex;
+	margin-left: 15%;
+	margin-right: 15%;
+	text-align: left;
+}
+
+.textomallorca {
+	padding-left: 2%;
+	padding-right: 3%;
+}
+
+.textokachow {
+	padding-left: 8%;
+}
+
+.rcdmallorca {
+	width: 100%;
+}
