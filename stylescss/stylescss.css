@@ -50,7 +50,7 @@
 	margin-top: 0.5%;
 	margin-bottom: 0.5%;
 	height: 50%;
-	width: 100%;
+	width: 92%;
 	padding-left: 8%;
 }
 
@@ -106,4 +106,11 @@
 
 .rcdmallorca {
 	width: 100%;
+}
+
+.buttons{
+	width: 15%;
+	border: solid peru;
+	border-radius: 15px;
+	padding-left: 2%;
 }
