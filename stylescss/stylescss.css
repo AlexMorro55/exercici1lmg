@@ -114,3 +114,75 @@
 	border-radius: 15px;
 	padding-left: 2%;
 }
+
+.perderteavisos {
+	background-color: peru;
+	border: solid peru;
+	border-radius: 50px;
+	display: flex;
+	margin: 5%;
+	padding: 2%;
+	}
+
+.notepierdasnada {
+	font-size: 200%;
+}
+
+.unete {
+	font-size: 150%;
+}
+
+.mails {
+	display: flex;
+	border: solid whitesmoke;
+	border-radius: 30px;
+	height: 10%;
+	margin-top: 4%;
+	margin-left: 10%;
+	width: 40%;
+}
+
+.mail {
+	margin-left: 3%;
+	margin-right: 5%;
+	padding-left: 8%;
+	padding-right: 25%;
+	font-size: 140%;
+}
+
+.boton {
+	background-color: whitesmoke;
+	border: solid whitesmoke;
+	border-radius: 25px;
+	margin-top: 0%;
+	margin-bottom: 0%;
+	padding-top: 3%;
+	padding-left: 23%;
+	padding-right: 19%;
+	font-size: 140%;
+}
+
+.dosprimeras {
+	display flex;
+	margin-bottom: 5%;
+}
+
+.mcqueen {
+	padding-right: 10%;
+	width: 38%;
+}
+
+.sally {
+	padding-left: 10%;
+	width: 30%;
+}
+
+.mate {
+	padding-right: 10%;
+	width: 28%;
+}
+
+.doc  {
+	padding-left: 10%;
+	width: 28%;
+}
