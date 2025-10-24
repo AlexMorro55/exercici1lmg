@@ -163,26 +163,77 @@
 }
 
 .dosprimeras {
-	display flex;
+	display: flex;
+	margin-left: 20%;
 	margin-bottom: 5%;
 }
 
+.rayokachow {
+	width: 60%;
+}
+
 .mcqueen {
-	padding-right: 10%;
-	width: 38%;
+	padding-right: 5%;
+	width: 80%;
+}
+
+.rayomc {
+	font-weight: bold;
+}
+
+.rayomcqueen {
+	font-size: 140%;
 }
 
 .sally {
-	padding-left: 10%;
-	width: 30%;
+	padding-top: 2%;
+	padding-left: 5%;
+	width: 45%;
+}
+
+.porsche {
+	font-weight: bold;
+}
+
+.novia {
+	font-size: 140%;
+
+}
+
+.dossegundas {
+	display: flex;
+	margin-left: 20%;
+	margin-bottom: 5%;
+}
+
+.matebff {
+	width: 40%;
 }
 
 .mate {
-	padding-right: 10%;
-	width: 28%;
+	width: 100%;
+}
+
+.mater {
+	font-weight: bold;
+}
+
+.bff {
+	font-size: 170%;
+}
+
+.dochud {
+	padding-left: 10%;
 }
 
 .doc  {
-	padding-left: 10%;
-	width: 28%;
+	width: 68%;
+}
+
+.hudson {
+	font-weight: bold;
+}
+
+.docdochudson {
+	font-size: 170%;
 }
