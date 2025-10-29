@@ -1,239 +1,666 @@
-.cabecera {
-	display: flex;
-	border: solid peru;
-	margin-left: 0.5%;
-	margin-top: 0.5%;
-	margin-bottom: 0.5%;
-	height: 50%;
-	padding: 0.4%;
-}
-
-.recipes {
-	margin-left: 1%;
-	margin-top: 1.3%;
-}
-
-.contenidor {
-	display: flex;
-}
-
-.logo {
-	height: 2.5%;
-	width: 2.5%;
-}
-
-.healthy {
-	margin-left: 20%;
-	margin-top: 10%;
-	margin-right: 25%;
-}
-
-.salud {
-	font-size: 30px;
-}
-
-.minutes {
-	font-size: 40px;
-}
-
-.button {
-	padding-left: 5px;
-	font-size: 20px;
-	border: solid peru;
-	border-radius: 15px;
-	width: 30%;
-}
-
-.categories {
-	display: flex;
-	border-bottom: solid peru;
-	margin-top: 0.5%;
-	margin-bottom: 0.5%;
-	height: 50%;
-	width: 92%;
-	padding-left: 8%;
-}
-
-.category{
-	margin-left: 3%;
-	font-weight: bold;
-}
-
-.latestrecipe {
-	margin-left: 20%;
-	margin-top: 2%;
-	padding: 2%;
-	font-size: 40px;
-}
-
-.imagenes{
-	display: flex;
-	margin-left: 23%;
-	padding-left: 5%;
-}
-
-.divmallorca {
-
-}
-
-.mallorca {
-	width: 50%;
-}
-
-.divkachow {
-
-}
-
-.kachow {
-	width: 80%	;
-}
-
-.textomallorcakachow {
-	display: flex;
-	margin-left: 15%;
-	margin-right: 15%;
-	text-align: left;
-}
-
-.textomallorca {
-	padding-left: 2%;
-	padding-right: 3%;
-}
-
-.textokachow {
-	padding-left: 8%;
-}
-
-.rcdmallorca {
-	width: 100%;
-}
-
-.buttons{
-	width: 15%;
-	border: solid peru;
-	border-radius: 15px;
-	padding-left: 2%;
-}
-
-.perderteavisos {
-	background-color: peru;
-	border: solid peru;
-	border-radius: 50px;
-	display: flex;
-	margin: 5%;
-	padding: 2%;
+@media(min-width: 1500px) {
+	body {
+		margin: 0px;
 	}
 
-.notepierdasnada {
-	font-size: 200%;
+	.cabecera {
+		display: flex;
+		background-color: red;
+		border: solid peru;
+		margin-left: 0.5%;
+		margin-top: 0.5%;
+		margin-bottom: 0.5%;
+		height: 50%;
+		padding: 0.4%;
+	}
+
+	.recipes {
+		margin-left: 0.5%;
+		margin-top: 1.3%;
+	}
+
+	.recipex {
+		display: flex;
+	}
+
+	.contenidor {
+		display: flex;
+		height: 100%;
+		background-image: url("../imatges/fondo.jpg");
+	}
+
+	.logo {
+		width: 3%;
+		height: 3%;
+	}
+
+	.healthy {
+		margin-left: 20%;
+		margin-top: 10%;
+		margin-right: 25%;
+		margin-bottom: 10%;
+	}
+
+	.salud {
+		font-size: 30px;
+	}
+
+	.minutes {
+		font-size: 40px;
+	}
+
+	.button {
+		padding-left: 5px;
+		font-size: 20px;
+		border: solid peru;
+		border-radius: 15px;
+		width: 30%;
+	}
+
+	.categories {
+		display: flex;
+		border-bottom: solid peru;
+		margin-top: 0.5%;
+		margin-bottom: 0.5%;
+		height: 50%;
+		width: 92%;
+		padding-left: 8%;
+	}
+
+	.category{
+		margin-left: 3%;
+		font-weight: bold;
+	}
+
+	.categori {
+		display: flex;
+	}
+
+	.categoriesone, .categoriestwo {
+		display: flex;
+		margin-left: 5%;
+	}
+
+	.latestrecipe {
+		margin-left: 20%;
+		margin-top: 2%;
+		padding: 2%;
+		font-size: 40px;
+	}
+
+	.imagenes{
+		display: flex;
+		margin-left: 23%;
+		padding-left: 5%;
+	}
+
+	.mallorca {
+		width: 50%;
+	}
+
+	.kachow {
+		width: 80%	;
+	}
+
+	.textomallorcakachow {
+		display: flex;
+		margin-left: 15%;
+		margin-right: 15%;
+		text-align: left;
+	}
+
+	.textomallorca {
+		padding-left: 2%;
+		padding-right: 3%;
+	}
+
+	.textokachow {
+		padding-left: 8%;
+	}
+
+	.rcdmallorca {
+		width: 100%;
+	}
+
+	.buttons{
+		width: 15%;
+		border: solid peru;
+		border-radius: 15px;
+		padding-left: 2%;
+	}
+
+	.perderteavisos {
+		background-color: peru;
+		border: solid peru;
+		border-radius: 50px;
+		display: flex;
+		margin: 5%;
+		padding: 2%;
+		}
+
+	.notepierdasnada {
+		font-size: 200%;
+	}
+
+	.unete {
+		font-size: 150%;
+	}
+
+	.mails {
+		display: flex;
+		border: solid whitesmoke;
+		border-radius: 30px;
+		height: 10%;
+		margin-top: 4%;
+		margin-left: 10%;
+		width: 40%;
+	}
+
+	.mail {
+		margin-left: 3%;
+		margin-right: 5%;
+		padding-left: 8%;
+		padding-right: 25%;
+		font-size: 140%;
+	}
+
+	.boton {
+		background-color: whitesmoke;
+		border: solid whitesmoke;
+		border-radius: 25px;
+		margin-top: 0%;
+		margin-bottom: 0%;
+		padding-top: 3%;
+		padding-left: 23%;
+		padding-right: 19%;
+		font-size: 140%;
+	}
+
+	.dosprimeras {
+		display: flex;
+		margin-left: 20%;
+		margin-bottom: 5%;
+	}
+
+	.rayokachow {
+		width: 60%;
+	}
+
+	.mcqueen {
+		padding-right: 5%;
+		width: 80%;
+	}
+
+	.rayomc {
+		font-weight: bold;
+	}
+
+	.rayomcqueen {
+		font-size: 140%;
+	}
+
+	.sally {
+		padding-top: 2%;
+		padding-left: 5%;
+		width: 45%;
+	}
+
+	.porsche {
+		font-weight: bold;
+	}
+
+	.novia {
+		font-size: 140%;
+
+	}
+
+	.dossegundas {
+		display: flex;
+		margin-left: 20%;
+		margin-bottom: 5%;
+	}
+
+	.matebff {
+		width: 40%;
+	}
+
+	.mate {
+		width: 100%;
+	}
+
+	.mater {
+		font-weight: bold;
+	}
+
+	.bff {
+		font-size: 170%;
+	}
+
+	.dochud {
+		padding-left: 10%;
+	}
+
+	.doc  {
+		width: 68%;
+	}
+
+	.hudson {
+		font-weight: bold;
+	}
+
+	.docdochudson {
+		font-size: 170%;
+	}
+
+	.autor {
+		display: flex;
+		background-color: peru;
+		border: solid peru;
+		width: 100%;
+		height: 60%;
+	}
+
+	.autorimage {
+		height: auto;
+	}
+
+	.kachowautor {
+		height: 40%;
+		padding: 20%;
+		padding-bottom: 0%;
+	}
+
+	.aboutautor {
+		height: 60%;
+		margin-top: 8%;
+	}
+
+	.final {
+		padding: 5%;
+		border: solid orange;
+		background-color: orange;
+	}
+
+	.finalrecipes {
+		display: flex;
+		margin-top: 1%;
+	}
+
+	.recipesa {
+		display: flex;
+		margin-right: 60%;
+	}
+
+	.logof{
+		width: 5%;
+		margin-bottom: 1.2%;
+	}
+
+	.logox {
+		width: 9%;
+		margin-bottom: 0.3%;
+
+	}
+
+	.logoig {
+		width: 7%;
+		margin-bottom: 0.3%;
+	}
+
+	.logot {
+		width: 8%;
+
+	}
+
+	.recipesl {
+		margin-left: 7%;
+		margin-top: 1.3%;
+	}
 }
 
-.unete {
-	font-size: 150%;
-}
 
-.mails {
-	display: flex;
-	border: solid whitesmoke;
-	border-radius: 30px;
-	height: 10%;
-	margin-top: 4%;
-	margin-left: 10%;
-	width: 40%;
-}
 
-.mail {
-	margin-left: 3%;
-	margin-right: 5%;
-	padding-left: 8%;
-	padding-right: 25%;
-	font-size: 140%;
-}
 
-.boton {
-	background-color: whitesmoke;
-	border: solid whitesmoke;
-	border-radius: 25px;
-	margin-top: 0%;
-	margin-bottom: 0%;
-	padding-top: 3%;
-	padding-left: 23%;
-	padding-right: 19%;
-	font-size: 140%;
-}
 
-.dosprimeras {
-	display: flex;
-	margin-left: 20%;
-	margin-bottom: 5%;
-}
 
-.rayokachow {
-	width: 60%;
-}
 
-.mcqueen {
-	padding-right: 5%;
-	width: 80%;
-}
 
-.rayomc {
-	font-weight: bold;
-}
 
-.rayomcqueen {
-	font-size: 140%;
-}
 
-.sally {
-	padding-top: 2%;
-	padding-left: 5%;
-	width: 45%;
-}
 
-.porsche {
-	font-weight: bold;
-}
 
-.novia {
-	font-size: 140%;
 
-}
 
-.dossegundas {
-	display: flex;
-	margin-left: 20%;
-	margin-bottom: 5%;
-}
 
-.matebff {
-	width: 40%;
-}
 
-.mate {
-	width: 100%;
-}
 
-.mater {
-	font-weight: bold;
-}
 
-.bff {
-	font-size: 170%;
-}
+@media(max-width: 1500px){
+	body {
+		margin: 0px;
+	}
 
-.dochud {
-	padding-left: 10%;
-}
+	.cabecera {
+		display: flex;
+		background-color: red;
+		border: solid peru;
+		margin-left: 0.5%;
+		margin-top: 0.5%;
+		margin-bottom: 0.5%;
+		height: 50%;
+		padding: 0.4%;
+	}
 
-.doc  {
-	width: 68%;
-}
+	.recipes {
+		margin-left: 0.5%;
+		margin-top: 1.3%;
+	}
 
-.hudson {
-	font-weight: bold;
-}
+	.recipex {
+		display: flex;
+	}
 
-.docdochudson {
-	font-size: 170%;
+	.contenidor {
+		display: flex;
+		height: 100%;
+		background-image: url("../imatges/fondo.jpg");
+	}
+
+	.logo {
+		width: 3%;
+		height: 3%;
+	}
+
+	.healthy {
+		margin-left: 20%;
+		margin-top: 10%;
+		margin-right: 25%;
+		margin-bottom: 10%;
+	}
+
+	.salud {
+		font-size: 30px;
+	}
+
+	.minutes {
+		font-size: 40px;
+	}
+
+	.button {
+		padding-left: 5px;
+		font-size: 20px;
+		border: solid peru;
+		border-radius: 15px;
+		width: 30%;
+	}
+
+	.categories {
+		border-bottom: solid peru;
+		margin-top: 0.5%;
+		margin-bottom: 0.5%;
+		height: 50%;
+		width: 92%;
+		padding-left: 8%;
+	}
+
+	.views {
+		margin-left: 32%;
+	}
+
+	.category{
+		margin-left: 10%;
+		font-weight: bold;
+	}
+
+	.categori {
+		margin-left: 10%;
+	}
+
+	.categoriesone, .categoriestwo {
+		display: flex;
+		margin-left: 5%;
+	}
+
+	.latestrecipe {
+		margin-left: 2%;
+		margin-top: 2%;
+		padding: 2%;
+		font-size: 40px;
+	}
+
+	.divmallorca {
+		margin-left: 30%;
+	}
+
+	.divkachow {
+		margin-left: 10%;
+	}
+
+	.imagenes{
+		display: flex;
+		margin-left: 23%;
+		padding-left: 5%;
+	}
+
+	.mallorca {
+		width: 50%;
+	}
+
+	.kachow {
+		width: 80%	;
+	}
+
+	.textomallorcakachow {
+		display: flex;
+		margin-left: 15%;
+		margin-right: 15%;
+		text-align: left;
+	}
+
+	.textomallorca {
+		padding-left: 2%;
+		padding-right: 3%;
+	}
+
+	.textokachow {
+		padding-left: 8%;
+	}
+
+	.rcdmallorca {
+		width: 100%;
+	}
+
+	.buttons{
+		width: 20%;
+		border: solid peru;
+		border-radius: 15px;
+		padding-left: 2%;
+	}
+
+	.perderteavisos {
+		background-color: peru;
+		border: solid peru;
+		border-radius: 50px;
+		margin: 5%;
+		padding: 7%;
+	}
+
+	.notepierdasnada {
+		font-size: 200%;
+	}
+
+	.unete {
+		font-size: 150%;
+	}
+
+	.mails {
+		display: flex;
+		border: solid whitesmoke;
+		border-radius: 30px;
+		height: 10%;
+		margin-top: 4%;
+		margin-left: 10%;
+		width: 40%;
+	}
+
+	.mail {
+		margin-left: 3%;
+		margin-right: 5%;
+		padding-left: 8%;
+		padding-right: 25%;
+		font-size: 140%;
+	}
+
+	.boton {
+		background-color: whitesmoke;
+		border: solid whitesmoke;
+		border-radius: 25px;
+		margin-top: 0%;
+		margin-bottom: 0%;
+		padding-top: 3%;
+		padding-left: 23%;
+		padding-right: 19%;
+		font-size: 140%;
+	}
+
+	.dosprimeras {
+		display: flex;
+		margin-left: 20%;
+		margin-bottom: 5%;
+	}
+
+	.rayokachow {
+		width: 60%;
+	}
+
+	.mcqueen {
+		padding-right: 5%;
+		width: 80%;
+	}
+
+	.rayomc {
+		font-weight: bold;
+	}
+
+	.rayomcqueen {
+		font-size: 140%;
+	}
+
+	.sally {
+		padding-top: 2%;
+		padding-left: 5%;
+		width: 45%;
+	}
+
+	.porsche {
+		font-weight: bold;
+	}
+
+	.novia {
+		font-size: 140%;
+
+	}
+
+	.dossegundas {
+		display: flex;
+		margin-left: 20%;
+		margin-bottom: 5%;
+	}
+
+	.matebff {
+		width: 40%;
+	}
+
+	.mate {
+		width: 100%;
+	}
+
+	.mater {
+		font-weight: bold;
+	}
+
+	.bff {
+		font-size: 170%;
+	}
+
+	.dochud {
+		padding-left: 10%;
+	}
+
+	.doc  {
+		width: 68%;
+	}
+
+	.hudson {
+		font-weight: bold;
+	}
+
+	.docdochudson {
+		font-size: 170%;
+	}
+
+	.autor {
+		display: flex;
+		background-color: peru;
+		border: solid peru;
+		width: 100%;
+		height: 60%;
+	}
+
+	.autorimage {
+		height: auto;
+	}
+
+	.kachowautor {
+		height: 40%;
+		padding: 20%;
+		padding-bottom: 0%;
+	}
+
+	.aboutautor {
+		height: 60%;
+		margin-top: 8%;
+	}
+
+	.final {
+		padding: 5%;
+		border: solid orange;
+		background-color: orange;
+	}
+
+	.finalrecipes {
+		display: flex;
+		margin-top: 1%;
+	}
+
+	.recipesa {
+		display: flex;
+		margin-right: 60%;
+	}
+
+	.logof{
+		width: 5%;
+		margin-bottom: 1.2%;
+	}
+
+	.logox {
+		width: 9%;
+		margin-bottom: 0.3%;
+
+	}
+
+	.logoig {
+		width: 7%;
+		margin-bottom: 0.3%;
+	}
+
+	.logot {
+		width: 8%;
+
+	}
+
+	.recipesl {
+		margin-left: 7%;
+		margin-top: 1.3%;
+	}
 }
