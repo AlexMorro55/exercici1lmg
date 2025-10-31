@@ -15,12 +15,16 @@
 	}
 
 	.recipes {
+		width: 110%;
 		margin-left: 0.5%;
 		margin-top: 1.3%;
 	}
 
 	.recipex {
 		display: flex;
+		margin-left: 1%;
+		margin-top: 1%;
+		margin-bottom: 0%;
 	}
 
 	.contenidor {
@@ -90,12 +94,18 @@
 
 	.imagenes{
 		display: flex;
-		margin-left: 23%;
+		margin-left: 10%;
 		padding-left: 5%;
+		margin-right: 10%;
+		padding-right: 5%;
 	}
 
 	.mallorca {
 		width: 50%;
+	}
+
+	.mallorcaescudo {
+		width: 52%;
 	}
 
 	.kachow {
@@ -123,7 +133,14 @@
 	}
 
 	.buttons{
-		width: 15%;
+		width: 16%;
+		border: solid peru;
+		border-radius: 15px;
+		padding-left: 2%;
+	}
+
+	.buttonss {
+		width: 11%;
 		border: solid peru;
 		border-radius: 15px;
 		padding-left: 2%;
@@ -344,9 +361,7 @@
 		display: flex;
 		background-color: red;
 		border: solid peru;
-		margin-left: 0.5%;
 		margin-top: 0.5%;
-		margin-bottom: 0.5%;
 		height: 50%;
 		padding: 0.4%;
 	}
@@ -394,6 +409,13 @@
 		width: 30%;
 	}
 
+	.buttonss {
+		width: 20%;
+		border: solid peru;
+		border-radius: 15px;
+		padding-left: 2%;
+	}
+
 	.categories {
 		border-bottom: solid peru;
 		margin-top: 0.5%;
@@ -429,7 +451,8 @@
 	}
 
 	.divmallorca {
-		margin-left: 30%;
+		margin-left: 20%;
+		width: 500%;
 	}
 
 	.divkachow {
@@ -437,17 +460,21 @@
 	}
 
 	.imagenes{
-		display: flex;
-		margin-left: 23%;
+		margin-left: 0%;
 		padding-left: 5%;
 	}
 
 	.mallorca {
-		width: 50%;
+		width: 90%;
+	}
+
+	.mallorcaescudo {
+		width: 10%;
 	}
 
 	.kachow {
-		width: 80%	;
+		width: 100%;
+		margin-left: -7%;
 	}
 
 	.textomallorcakachow {
@@ -499,7 +526,6 @@
 		border-radius: 30px;
 		height: 10%;
 		margin-top: 4%;
-		margin-left: 10%;
 		width: 40%;
 	}
 
